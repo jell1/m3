@@ -1,0 +1,280 @@
+
+/************ Contains top hero container w Nav and Header ************/
+.hero {
+	background: 
+	 radial-gradient(
+       rgba(83,159,225,.7),
+       rgba(83,159,225,.7) 
+    ), url('/images/bg.jpg');
+	background-size: cover;
+	font-family: Open Sans, Arial;	
+}
+
+.hero > div {
+	margin: 0 auto;
+	width: 960px;
+	text-align: center;
+	min-height: 400px;
+	position: relative;
+}
+
+header {
+	min-height: 150px;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 10px;
+	left: 3px;
+	color: white;
+	font-size: 50px;
+	font-family: lobster;
+}
+
+/********** Search bar and Button **************/
+.search-form input {
+	position: absolute;
+	top: 5px;
+	right: 65px;
+	color: #ddd;	
+	background-color : transparent; 
+	border: 1px #ddd solid;
+}
+
+.search-form button {
+	background-color: #EA501A;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+}
+
+nav {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 960px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+/************ Navigation Menu Links **************/
+nav a {
+	color: white;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+/************ Great People Better Dogs Banner ************/
+.banner {
+	width: 960px;
+	min-height: 50px;
+	position: absolute;
+	bottom: 20px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/************ Great People Better Dogs Text ***************/
+h1 {
+	font-size: 40px;
+	padding-bottom: 10px;	
+}
+
+h1 span {
+	font-weight: normal;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*********** Contains full bottom Section ************/
+.main {
+	background-color: #E8F3F9;
+	min-height: 730px;
+}
+
+.main > div {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+/*********** Contains Aside w 3 media Objects **************/
+.maininnercontainer {
+	background-color: white;	
+	margin: 0 auto;
+	text-align: center;
+	width: 850px;
+	min-height: 520px;
+	position: relative;
+	box-shadow: 0 0 20px -5px #000;
+}
+
+.breakouts {
+	min-height: 130px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/************* 3 Header Boxes ***************/
+.breakoutsbox {
+	box-shadow: 0 0 20px -5px #000;
+	background-color: white;
+	display: inline-block;
+	width: 240px;
+	text-align: center;
+	margin: 3px;
+	transform: translateY(-20px);
+	padding: 8px;
+}
+
+.breakoutsbox:nth-child(1) {
+	border-top: 5px #E84208 solid;
+}
+
+.breakoutsbox:nth-child(2) {
+	border-top: 5px #8DCE44 solid;
+}
+
+.breakoutsbox:nth-child(3) {
+	border-top: 5px #0B92D1 solid;
+}
+
+.breakoutsbox > div {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div:nth-child(3) {
+	margin-bottom: 20px;
+}
+
+.breakoutsbox button {
+	border-radius: 5px;
+	text-align: center;
+	margin: 10px;
+	background-color: transparent;
+
+}
+
+.breakoutsbox:nth-child(1) button {
+	border: 2px solid #EC6436;
+	color: #EC6436;
+	
+}
+
+.breakoutsbox:nth-child(2) button {
+	border: 2px solid #B0DD7B;	
+	color: #B0DD7B;
+	
+}
+
+.breakoutsbox:nth-child(3) button {
+	border: 2px solid #53B3E0;
+	color: #53B3E0;
+	
+}
+
+/************ Contains 3 media Objects *************/
+aside {
+	background-color: white;
+	width: 350px;
+	min-height: 420px;
+	padding: 2px;
+	float: left;
+}
+
+aside > div {
+	background-color: #E8F3F9;
+	height: 80px;
+	width: 340px;
+	margin: 5px;
+	overflow: hidden;
+}
+
+/*********** 3 little doggy pictures *************/
+aside img {
+	background-size: cover;
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.mediaboxcontent {
+	background-color: #E8F3F9;
+	margin-left: 70px;
+	text-align: left;
+	color: #3D90CF;
+	padding: 5px;
+}
+
+p {
+	text-align: left;
+	margin: 0 0 5px 75px;
+}
+/*********** Contains Dog Profiles *************/
+.profilecontainer {
+	background-color: white;
+	position: absolute;
+	right: 0px;
+	width: 446px;
+	overflow: hidden;
+}
+
+.profilecontainer > div {
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+	color: #3E6B1C;
+}
+
+.profileboxpic {
+	background-image: url('/images/dog1.png');
+	background-size: cover;
+	height: 135px;
+	width: 135px;
+}
+
+.profileboxpic2 {
+	background-image: url('/images/dog2.png');
+	background-size: cover;
+	height: 135px;
+	width: 135px;
+}
+
+.profileboxpic3 {
+	background-image: url('/images/dog3.png');
+	background-size: cover;
+	height: 135px;
+	width: 135px;
+}
+
+.profileboxcontent {
+	background-color: #E3EFD6;
+	min-height: 50px;
+	width: 135px;
+	text-align: left;
+
+}
+
+.profilename {
+	margin-bottom: 3px;
+	background-color: #8ECF41;
+	padding: 3px;
+}
+
+.profiletxt {
+	padding: 3px;
+}
+
+
